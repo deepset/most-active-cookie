@@ -16,4 +16,11 @@ The application is built in Golang and uses Binary Search Algorithm
 
 * Run the following command from CLI with file(-f) and date(-d) flag 
 
-* ./most-active-cookie -f cookie_log.csv -d 2018-12-09
+* ./most-active-cookie **-f** cookie_log.csv **-d** 2018-12-09
+
+## Project Structure
+* **fileops** is used for file operations
+* **search** is used to find search range using binary search
+* **max** is used to find most active cookie
+* **logger** is used for generating log file without log level functioanlity , log file generated is logs.log
+* **errors** is used for various errors
