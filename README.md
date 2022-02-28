@@ -4,9 +4,9 @@ This command line application takes a cookie log file and date in UTC format and
 The application is built in Golang and uses binary search algorithm
 
 ## Install
-git clone github.com/deepset/most-active-cookies
+git clone github.com/deepset/most-active-cookie
 
-cd github.com/deepset/most-active-cookies
+cd github.com/deepset/most-active-cookie
 
 go build
 
@@ -22,10 +22,11 @@ SAZuXPGUrfbcn5UA,2018-12-08T22:03:00+00:00
 fbcn5UAVanZf6UtG,2018-12-08T09:30:00+00:00
 4sMM2LxV07bPJzwf,2018-12-07T23:30:00+00:00
 
-$ ./most-active-cookies -f cookie_log.csv -d 2018-12-09
+$ ./most-active-cookie -f cookie_log.csv -d 2018-12-09
 
-Response -
+Response
 
 There are 2 most Active Cookies on date 2018-12-09
+
 5UAVanZf6UtGyKVS
 AtY0laUfhglK3lC7
